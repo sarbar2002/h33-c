@@ -4,7 +4,7 @@
 #include<stdlib.h>
 
 int digit_sum(int n) {
-  if (n/10 == 0){
+  if (n == 0){
     return 0;
   } else{
     int sum = (n % 10) + (digit_sum(n/10));
